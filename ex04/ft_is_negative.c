@@ -19,7 +19,7 @@ void    ft_putchar(char c)
 
 void    ft_is_negative(int n)
 {
-    if(n >= 1)
+    if(n >= 0)
     {
         ft_putchar('P');
     }
@@ -28,16 +28,3 @@ void    ft_is_negative(int n)
     }
 }
 
-int main(int argc, const char *argv[])
-{
-    int i;
-
-    i = -1;
-    while (i != 2)
-    {
-        ft_is_negative(i);
-        i++;
-    }
-    return 0;
-    
-}

@@ -54,9 +54,3 @@ void    ft_print_comb(void)
     
 }
 
-
-int main(int argc, const char *argv[])
-{
-    ft_print_comb();
-    return 0;
-}
